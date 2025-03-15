@@ -1,0 +1,13 @@
+server:
+    port: 8081
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/onlineshopping?useSSL=false&serverTimezone=UTC
+        username: root
+        password: mysql
+mybatis-plus:
+    type-aliases-package: com.onlineshopping.entity # 别名扫描包
+logging:
+    level:
+        com.onlineshopping: debug
